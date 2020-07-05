@@ -1,0 +1,198 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="6dp">
+
+    <EditText
+        android:id="@+id/edt_add_question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Câu hỏi" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/btn_delete_image_attach"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="4dp"
+            android:src="@drawable/ic_cancel" />
+
+        <ImageView
+            android:id="@+id/img_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btn_delete_image_attach"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_exam" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_ans_a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="6dp"
+            android:layout_marginRight="6dp"
+            android:text="A."
+            android:textColor="@color/textColorPrimary" />
+
+        <EditText
+            android:id="@+id/edt_add_ans_a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Đáp án A" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_ans_b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="6dp"
+            android:layout_marginRight="6dp"
+            android:text="B."
+            android:textColor="@color/textColorPrimary" />
+
+        <EditText
+            android:id="@+id/edt_add_ans_b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Đáp án B" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_ans_c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="6dp"
+            android:layout_marginRight="6dp"
+            android:text="C."
+            android:textColor="@color/textColorPrimary" />
+
+        <EditText
+            android:id="@+id/edt_add_ans_c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Đáp án C" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_ans_d"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="6dp"
+            android:layout_marginRight="6dp"
+            android:text="D."
+            android:textColor="@color/textColorPrimary" />
+
+        <EditText
+            android:id="@+id/edt_add_ans_d"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Đáp án D" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/correct_answer"
+        android:textColor="@color/textColorPrimary"
+        android:textSize="18sp" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="4">
+
+        <RadioButton
+            android:id="@+id/radio_button_a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="true"
+            android:text="A" />
+
+        <RadioButton
+            android:id="@+id/radio_button_b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="B" />
+
+        <RadioButton
+            android:id="@+id/radio_button_c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="C" />
+
+        <RadioButton
+            android:id="@+id/radio_button_d"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="D" />
+
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/edt_hd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Hướng dẫn nếu có" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="6dp"
+        android:paddingRight="6dp"
+        android:paddingBottom="50dp">
+
+        <Button
+            android:id="@+id/btn_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="6dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_menu"
+            android:text="@string/add"
+            android:textColor="@color/text" />
+
+        <Button
+            android:id="@+id/btn_reset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="6dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_normal"
+            android:text="@string/reset" />
+    </LinearLayout>
+
+</LinearLayout>

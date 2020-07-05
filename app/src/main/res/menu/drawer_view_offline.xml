@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <item
+        android:id="@+id/nav_online"
+        android:icon="@drawable/ic_exam"
+        android:title="@string/online" />
+    <item android:title="Kiểm tra">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_test"
+                    android:icon="@drawable/ic_exam_test"
+                    android:title="@string/test" />
+                <item
+                    android:id="@+id/nav_practice"
+                    android:icon="@drawable/ic_exam"
+                    android:title="@string/practice" />
+            </group>
+        </menu>
+    </item>
+
+
+    <item android:title="Biên tập">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_add_question"
+                    android:icon="@drawable/ic_add_question"
+                    android:title="@string/add_question" />
+                <item
+                    android:id="@+id/nav_add_from_file"
+                    android:icon="@drawable/ic_add_file"
+                    android:title="@string/add_from_file" />
+                <item
+                    android:id="@+id/nav_edit_question"
+                    android:icon="@drawable/ic_pen"
+                    android:title="@string/edit_question" />
+            </group>
+        </menu>
+    </item>
+
+</menu>

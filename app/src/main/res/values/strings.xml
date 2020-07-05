@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Trắc nghiệm - ITMC</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Câu Lạc Bộ ITCM</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Fanpage CLB ITMC</string>
+    <string name="menu_gallery">Website CLB ITMC</string>
+    <string name="menu_slideshow">Rate App</string>
+    <string name="menu_tools">Facebook</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+    <string name="offline">Đề thi của bạn</string>
+    <string name="online">Đề thi hệ thống</string>
+    <string name="info">Thông tin</string>
+    <string name="exit">Thoát</string>
+    <string name="add_from_file">Thêm từ tập tin</string>
+    <string name="edit_question">Chỉnh sửa câu hỏi</string>
+
+    <string name="test">Kiểm tra tổng hợp</string>
+    <string name="practice">Luyện tập chủ đề</string>
+    <string name="image_attach">Đính kèm ảnh</string>
+
+    <string name="info_download">Các đề sau khi tải về sẽ có thể làm offline</string>
+    <string name="num_question">Số lượng câu hỏi: </string>
+    <string name="select_type">Chọn chủ đề</string>
+    <string name="default_type">Không xác định</string>
+    <string name="add">Thêm</string>
+    <string name="time">Thời gian (phút): </string>
+    <string name="mix_answer">Xáo thứ tự đáp án</string>
+    <string name="done">Xong</string>
+
+    <string name="select_zip">Chọn tập tin *.zip</string>
+    <string name="input">Nhập</string>
+    <string name="preview_zip">Thông tin file *.zip sẽ được hiển thị ở đây</string>
+
+    <string name="test_complete">Nộp bài</string>
+    <string name="add_type">Thêm chủ đề</string>
+    <string name="add_question">Thêm câu hỏi</string>
+
+    <string name="move_question">Di chuyển các câu hỏi vào chủ đề Không xác định?</string>
+    <string name="delete">Xóa</string>
+    <string name="move">Di chuyển</string>
+    <string name="change">Đổi</string>
+    <string name="no">Không</string>
+
+    <string name="next">Tiếp</string>
+    <string name="previous">Trước</string>
+
+    <string name="reset">reset</string>
+    <string name="correct_answer">Đáp án đúng:</string>
+</resources>

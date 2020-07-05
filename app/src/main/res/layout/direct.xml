@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="44dp"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/btnPrevious"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:background="@drawable/background_previous"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:text="@string/previous"
+        android:textAllCaps="false"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/question_process"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/colorPrimaryDark"
+        android:gravity="center"
+        android:text="99/999"
+        android:textColor="#ffffff"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btnNext"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:background="@drawable/background_next"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?attr/selectableItemBackgroundBorderless"
+        android:text="@string/next"
+        android:textAllCaps="false"
+        android:textColor="#ffffff" />
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape>
+            <stroke android:width="1dp" android:color="@color/divider" />
+            <solid android:color="#B0DEF3" />            <!-- Thiết lập màu nền cho nút -->
+            <corners android:radius="6dp" />
+        </shape>
+    </item>
+
+    <item>
+        <shape>
+            <stroke android:width="1dp" android:color="@color/divider" />
+            <solid android:color="#E6FFFFFF" />            <!-- Thiết lập màu nền cho nút -->
+            <corners android:radius="6dp" />
+        </shape>
+    </item>
+</selector>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightBackground"
+    android:scrollbars="vertical">
+
+    <LinearLayout
+        android:id="@+id/main_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include layout="@layout/toolbar" />
+
+        <LinearLayout
+            android:id="@+id/linear_type_select"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="3dp"
+            android:paddingTop="4dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:text="Thể loại: "
+                android:textColor="@color/textColorPrimary"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btn_select_type"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_normal"
+                android:text="@string/default_type"
+                android:textColor="@color/textColorPrimary" />
+        </LinearLayout>
+
+        <include layout="@layout/form_add_edit" />
+    </LinearLayout>
+
+</ScrollView>
+

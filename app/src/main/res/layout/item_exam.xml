@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="6dp"
+    android:layout_marginTop="6dp"
+    android:layout_marginRight="6dp"
+    android:background="@drawable/background_item_grid"
+    app:cardCornerRadius="6dp"
+    app:cardElevation="4dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_item_grid"
+        android:padding="12dp">
+
+        <TextView
+            android:id="@+id/txt_name_exam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:text="Đại số"
+            android:textColor="#000"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/txt_details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_name_exam"
+            android:text="40 câu - 60 phút"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:id="@+id/img_download"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:padding="4dp"
+            android:src="@drawable/ic_download" />
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

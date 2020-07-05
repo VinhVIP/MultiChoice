@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "828407966905",
+    "firebase_url": "https://multichoice-b0d1f.firebaseio.com",
+    "project_id": "multichoice-b0d1f",
+    "storage_bucket": "multichoice-b0d1f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:828407966905:android:1649756231ecbdff897f68",
+        "android_client_info": {
+          "package_name": "com.vinh.multichoice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "828407966905-44dce6te6f4slhfkg3r8fkbsopogd9so.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vinh.multichoice",
+            "certificate_hash": "537b0b5fc21cded09e67ee5b14c329f2915e34a3"
+          }
+        },
+        {
+          "client_id": "828407966905-vl3g7rrfgdsbubutj00vs1vhoe1l4mhl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxop-d444Viz4R5hH5Olg3C56LbhAVBsU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "828407966905-vl3g7rrfgdsbubutj00vs1vhoe1l4mhl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

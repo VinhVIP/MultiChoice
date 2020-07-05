@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_add_image"
+        android:icon="@drawable/ic_image"
+        android:title="@string/image_attach"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_move_question"
+        android:icon="@drawable/ic_cut"
+        android:title="@string/move"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_delete_question"
+        android:icon="@drawable/ic_garbage_light"
+        android:title="@string/delete"
+        app:showAsAction="ifRoom" />
+</menu>
